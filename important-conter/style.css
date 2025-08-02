@@ -1,0 +1,19 @@
+/*counter section start now*/
+.counter{
+    width:100%;
+    padding: 50px 0px;
+    background-color: rgb(45, 45, 209);
+}
+.counter .counter-flex .counter-box h2{
+    font-size: 45px;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.counter .text p{
+    font-size:24px;
+    color:#ffffff;
+    text-transform: capitalize;
+
+}
+/*counter section End now*/
