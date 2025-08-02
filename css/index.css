@@ -1,0 +1,16 @@
+.git form input{
+    width:50%;
+    height: 60px;
+    background-color: beige;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 30px;
+    color:black;
+    font-size: 18px;
+    text-transform: capitalize;
+    
+}
+.git form label{
+    color:blueviolet;
+    font-size: 18px;
+}

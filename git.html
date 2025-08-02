@@ -4,16 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
     <body>
         <div class="git">
-            echo "# Texi-hub-projcet" >> README.md
-            git init
-            git add README.md
-            git commit -m "first commit"
-            git branch -M main
-            git remote add origin https://github.com/jahangiralom86fff/Texi-hub-projcet.git
-            git push -u origin main
+          <form>
+            <label for="name">Name*</label><br><br>
+            <input type="text" name="name" id="name" placeholder="Enter your named*" required><br><br>
+
+            <label for="phone">phone*</label><br><br>
+            <input type="phone" name="phone" id="phone" placeholder="Enter your namber*" required><br><br>
+
+            <label for="email">Email*</label><br><br>
+            <input type="email" name="email" id="email" placeholder="Enter your Email*" required><br><br>
+
+            <label for="password">password*</label><br><br>
+            <input type="password" name="password" id="name" placeholder="Enter your pasword*" required><br><br>
+
+            <label for="website">Name*</label><br><br>
+            <input type="website" name="website" id="url" placeholder="Enter your named*" required><br><br>
+
+            <button type="submit" name="button">Submit now</button>
+          </form>
             
         </div>
     </body>
