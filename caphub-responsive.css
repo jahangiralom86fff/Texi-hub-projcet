@@ -1,0 +1,922 @@
+/*header section start now*/
+
+@media only screen and (min-width:400px) and (max-width:600px){
+    /*navbar section start now*/
+    .header-info p {
+        color: #fff;
+        font-weight: bold;
+        font-family: "Lato", serif;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-size: 12px
+    }
+    .header-info h1 {
+        font-size: 30px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 4px 0px;
+        padding: 4px 22px;
+    }
+    .contact-section .contacts {
+        font-size: 2.791rem;
+        
+    }
+    .header-img-section{
+        width: 80%;
+        height: auto;
+    }
+    .read-btn-type{
+        padding:20px 0px;
+    }
+    .service-section .heading {
+        font-size: 20px;
+        padding-top: 90px;
+    }
+    .service-section .paragraph {
+        font-size: 15px;
+        width: 95%;
+    }
+    
+    .service-section .head-line {
+        font-size: 25px;
+        width: 100%;
+    }
+    .position-absolute {
+        position: absolute !important;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        left: 260px;
+    }
+    .cap-section .service-img .service-img-fl{
+        margin-top:30px;
+    }
+    .ms-auto {
+        margin-left: auto !important;
+        margin-top: 20px;
+    } 
+    /*navbar section end now*/
+    .cab-section .head-line{
+        font-size: 25px ;
+        width: 100%;
+    }
+    .cab-section .heading{
+        font-size: 20px;
+       
+    }
+    .apple-store-img {
+        max-width: 40%;
+        height: auto;
+        left: 260px;
+    }
+    .google-store-img {
+        max-width: 40%;
+        height: auto;
+        top:-8px;
+        left: 185px;
+    }
+   
+    .cab-section .paragraph{
+        font-size: 16px;
+        width: 100%;
+    }
+        
+    .cab-section .read-btn-type{ 
+      margin-bottom:40px !important;
+      margin-top: 25px;
+    }
+
+    .card-section .card-blog{ 
+        margin-top: 100px;
+    }
+    
+    .main-blog{
+        position: relative;
+    }
+    .main-blog .img-area{
+        margin-top: -90px;
+    }
+
+    /*content section start now---------------------*/
+
+    .content-section{
+        width: 100%;
+        padding: 60px 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .content-section .content-head{
+        font-size:28px;
+    }
+    
+    .content-section .content-heading{
+        font-size: 22px;
+      
+    }   
+    .content-section .paragraph .content-p{
+        font-size: 14px;
+        padding-top: 12px;
+    }
+        
+    .content-section .paragraph{
+        width:65%;
+        padding-top:1px;
+    }
+    
+    .content-section .content-box .img-de{
+        width:34%;
+
+    }
+    .content-section .btn{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 10px;
+    }
+    .content-section .read-more-btn{
+        font-size: 20px;
+    }
+    /*conten section END now---------------------*/
+
+    /*cap section start now..................*/
+    .cap-section .cap-heading {
+        font-size: 26px;
+       
+    }
+    
+    .cap-section .capt-head {
+        font-size: 20px;
+        width: 100%;
+    }
+        
+    .service-section .cap-heading{
+        font-size: 30px;
+    }
+        
+    .service-section .cap-area-head{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        padding-top:15px;
+    }
+        
+    .cap-section .cap-paragraph-area .cap-paragraph{
+        width: 100%;
+        font-size: 15px;
+    }
+        
+    .cap-section .google-store-img{
+        float: left;
+        width:50%;
+        padding-left:10px;
+    }
+    .cap-section .apple-store-img {
+        float: left;
+        width:50%;
+        padding-left:10px;
+    }
+    /*cap section end now......................*/
+
+    /*testimonial section start now...........*/
+      
+    .testimonial-section .test-head{
+        font-size: 20px;
+        color:#ffc61a;
+        font-family:"Lato", serif;
+    }
+    .testimonial-section .testi-heading{
+        font-size: 30px;
+        color:#ffffff;
+        font-family:"Lato", serif;
+    }
+    
+    .testimonial-section .service-paragraph{
+        font-size:16px;
+        width: 100%;  
+    }
+    .testimonial-section .service-content{
+        padding: 42px 50px;
+        margin: 20px 0px;
+        border-radius: 18px;
+    }
+    
+    /*testimonial section End now--------------*/
+
+    /*contacts section start now---------------*/
+    .contact-section .contacts-head{
+        font-size:25px;
+    }
+    /*contacts section end -----------------*/
+
+    /*footter section start now now*/
+        
+    .fotter-section .fotter-heading{
+        font-size:15px; 
+        margin-left:23px;
+        margin-top:10px;
+    }
+        
+    .fotter-section .fotter-heading{
+        position: relative;
+    }
+    .fotter-section .fotter-heading::before{
+        height: 4px;
+        top:30px;
+        left:2px;    
+    }
+     
+    .fotter-section .fotter-list ul li{
+        margin: 15px 0px;
+    }   
+    .fotter-section .fotter-list ul li .fotter-link{
+        font-size: 12px;
+    }
+    .fotter-section .fotter-list .foter-item{
+        margin-top:-28px;
+        margin-left: 23px;
+    }
+        
+    .fotter-section .footter-paragrp .fotter-para{
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .fotter-section .footter-paragrp{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    
+    .fotter-section .fotter-user .un-list li{
+        list-style-type: none;
+        margin: 10px 17px;
+    }
+    .fotter-section .fotter-user .un-list li .foter{
+        font-size: 16px;   
+    }
+    .fotter-section .fotter-icon .fotter-list-item{
+        margin-top: -20px;
+        margin-left:17px;
+    }
+    
+    .fotter-section .fotter-list ul li .fotter-link .icon{
+        float: left;
+        width: 8%;
+    }
+    .fotter-section .fotter-list ul li .fotter-link .info{
+        float: left;
+        width: 60%;
+    }
+       
+    /*fotter section end end---------*/
+
+
+}
+@media only screen and (min-width:600px) and (max-width:770px){  
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    
+    .header-info h1 {
+        font-size: 25px;
+    }
+    .header-info h3, h4 {
+        font-size: 18px;
+    }
+    .header-img-section{
+        width: 85%;
+    }
+    /*testimonial area now*/
+   
+    .testimonial-grapr{
+        position: relative;
+
+    }
+    .tesi-monial-section{
+       position:absolute;
+       top: 20px;
+       left: -15px!important;
+    }
+    /*footer section start now*/
+     
+    .fotter-section .fotter-heading{
+        position: relative;
+    }
+    .fotter-section .fotter-heading::before{
+        height: 4px;
+        top:30px;
+        left:2px;    
+    }
+    .fotter-section .fotter-list ul li{
+        margin: 15px 0px;
+    }   
+    .fotter-section .fotter-list ul li .fotter-link{
+        font-size: 12px;
+    }
+    .fotter-section .fotter-user .un-list li .foter .user-add-icon{
+        margin-left: 65px;
+    }
+    .fotter-section .fotter-list .foter-item{
+        margin-top:-28px;
+        margin-left: 23px;
+    }
+     
+    /*footer section End now*/
+    
+}
+@media only screen and (min-width:600px) and (max-width:800px){
+
+    /*navbar section start now*/
+    .ms-auto {
+        margin-left: auto !important;
+        margin-top: 20px;
+    } 
+    /*navbar section end now*/
+
+    /*cap section start now Now------------*/
+    .cab-section{
+        width: 100%;
+        padding: 65px 40px;
+        background:#ffc61a;
+        margin-top: -6px;
+    }
+    .cab-section .head-line{
+        font-size:22px;
+    }
+    .cab-section .heading{
+        font-size:18px;
+    }
+    .cap-section .apple-store-img {
+        float: left;
+        width: 45%;
+    }
+    
+    .read-btn-type{
+        padding:20px 0px;
+    }
+    /*cap section end END now---------------*/
+
+    /*card section Start now--------------*/
+    .main-blog{
+        margin-top: 120px;
+    }
+    /*card section End now--------------*/
+
+    /*content section start now----------*/
+        
+    .content-section .content-heading{
+        font-size: 20px; 
+    }
+        
+    .content-section .content-head{
+        font-size: 25px;
+    }
+    
+    .content-section .content-heading{
+        font-size: 22px;
+       
+    }
+    
+    /*content section End now----------*/
+
+    /*cap section start Now---------------*/
+    .cap-section .cap-head{
+        font-size: 25px;
+    } 
+    .cap-section .cap-heading{
+        font-size: 30px;
+    } 
+    .cap-section .cap-area-head{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .cap-section .cap-pragraph{
+        font-size: 15px;
+        margin:0 auto;
+    }
+    
+    /*cap section End now-------------------*/
+    /*testimonital area start now-------------*/
+        
+    .testimonial-section .test-head{
+        font-size: 20px;
+    }     
+    .testimonial-section .testi-heading{
+        font-size: 30px;  
+    }
+    .testimonial-section .service-paragraph{
+        font-size:15px;
+        width: 100%;  
+    }
+    
+    .testimonial-section .service-content{
+        padding: 42px 50px;
+        margin: 20px 0px;
+        border-radius: 18px;
+    }
+    .testimonial-gra{
+        position: relative;
+
+    }
+    .tesi-monial{
+        position: absolute;
+        top: -62px;
+        left: 130px;
+
+    }
+    .testimonial-grapr{
+        position: relative;
+
+    }
+    .tesi-monial-section{
+        position: absolute;
+        left: -76px;
+        top: 0px;
+    }
+    
+    /*contacts section start now---------------*/
+    .contact-section .contacts-head{
+        font-size:25px;
+        font-weight: bold;
+    }
+    /*contacts section end -----------------*/
+
+    /*footter section start now now*/
+        
+    .fotter-section .fotter-heading{
+        font-size:18px; 
+        margin-left:23px;
+        margin-top:10px;
+    }
+     
+    .fotter-section .fotter-list ul li{
+        margin: 15px 0px;
+    }   
+    .fotter-section .fotter-list ul li .fotter-link{
+        font-size: 15px;
+    }
+    .fotter-section .fotter-list .foter-item{
+        margin-top:-28px;
+    }
+        
+    .fotter-section .footter-paragrp .fotter-para{
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .fotter-section .footter-paragrp{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    
+    .fotter-section .fotter-user .un-list li{
+        list-style-type: none;
+        margin: 10px 17px;
+
+    }
+    .fotter-section .fotter-list ul li .fotter-link .icon{
+        float: left;
+        width: 8%;
+    }
+    .fotter-section .fotter-list ul li .fotter-link .info{
+        float: left;
+        width: 60%;
+    }
+    .fotter-section .fotter-user .un-list li .foter{
+        font-size: 16px;   
+    }
+    .fotter-section .fotter-icon .fotter-list-item{
+        margin-top: -20px;
+        margin-left:17px;
+    }  
+    /*fotter section end end---------*/
+      
+    
+}
+@media only screen and (min-width:767px) and (max-width:995px){
+    /*contacts section start now*/
+    .contact-section .contacts {
+        font-size: 2.791rem;
+        
+    }
+    /*contacts section End now*/
+    
+    .header-info h1 {
+        font-size: 30px;
+    }
+    .header-img-section{
+        width:85%;
+    }
+    .service-section .head-line {
+        font-size: 30px;
+        width: 94%
+    }
+    .service-section .heading {
+        font-size: 20px;
+    }
+    .service-section .paragraph {
+        font-size:15px;
+    }
+    .read-btn-type{
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    /*fotter section start now*/
+    .fotter-section .fotter-heading{
+        position: relative;
+    }
+    .fotter-section .fotter-heading::before{
+        height: 4px;
+        top:35px;
+        left:2px;    
+    }
+    .fotter-section .fotter-user .un-list li .foter .user-add-icon {
+        margin-left: 63px;
+    }
+    .fotter-section .fotter-user .un-list li .foter {
+        font-size: 15px;
+    }
+    .fotter-section .fotter-list ul li{
+        margin: 10px 0px;
+    }   
+    .fotter-section .fotter-list ul li .fotter-link{
+        font-size: 15px;
+    }
+    .fotter-section .foter-item{
+        margin-left: 22px;
+    }
+    .fotter-section .fotter-list ul li .fotter-link .icon{
+        float: left;
+        width: 8%;
+    }
+    .fotter-section .fotter-list ul li .fotter-link .info{
+        float: left;
+        width: 60%;
+    }
+    /*fotter section end now*/
+
+}
+
+@media only screen and (min-width:800px) and (max-width:980px){
+    
+    /*navbar section start now*/
+    .ms-auto {
+        margin-left: auto !important;
+        margin-top: 20px;
+    } 
+    /*navbar section end now*/
+
+
+    /*cap section start now Now------------*/
+    .cab-section{
+        width: 100%;
+        padding: 65px 40px;
+        background:#ffc61a;
+        margin-top: -6px;
+    }
+    .cab-section .head-line{
+        font-size:30px;
+    }
+    .cab-section .heading{
+        font-size:22px;
+    }
+    .cab-section .paragraph{
+        font-size:16px;
+    }
+    .cab-section .read-btn-type{
+        margin:30px 0px;
+    }
+
+    /*cap section end END now---------------*/
+
+    /*card section Start now--------------*/
+     .main-blog{
+        margin-top: 115px;
+    }
+    /*card section End now--------------*/
+    
+    /*content section start now----------*/
+        
+    .content-section .content-heading{
+        font-size: 20px; 
+    }
+        
+    .content-section .content-head{
+        font-size: 25px;
+    } 
+    .content-section .paragraph{
+        width:60%;
+        padding-top:1px;
+    }
+    
+    .content-section .content-box .img-de{
+        width:18%;
+
+    }
+    /*content section End now----------*/
+
+     /*cap section start Now---------------*/
+     .cap-section .cap-head{
+        font-size: 25px;
+    } 
+    .cap-section .cap-heading{
+        font-size: 33px;
+    } 
+    .cap-section .cap-area-head{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+        
+    .cap-section .google-store-img{
+        float: left;
+        width:35%;
+    }
+        
+    .cap-section .apple-store-img {
+        float: left;
+        width:35%;
+    }
+    .cap-section .cap-hand-moblie{
+        width:90%;
+        padding-left:21%;
+    }
+    .cap-section .cap-hand-moblie{
+        padding-top: 18px;
+    }
+    
+    /*cap section End now-------------------*/
+
+    /*testimonital area start now-------------*/
+        
+    .testimonial-section .test-head{
+        font-size: 35px;
+    }     
+    .testimonial-section .testi-heading{
+        font-size: 35px;  
+    }
+    .testimonial-section .service-paragraph{
+        font-size:16px;
+        width: 100%;  
+    }
+    
+    .testimonial-section .service-content{
+        padding: 42px 50px;
+        margin: 20px 0px;
+        border-radius: 18px;
+    }
+    .testimonial-gra{
+        position: relative;
+
+    }
+    .tesi-monial{
+        position: absolute;
+        top: -62px;
+        left: 130px;
+
+    }
+    .testimonial-grapr{
+        position: relative;
+
+    }
+    .tesi-monial-section{
+        position: absolute;
+        left: -76px;
+        top: 0px;
+    }
+    /*footter section start now now*/
+        
+    .fotter-section .fotter-heading{
+        font-size:18px; 
+        margin-left:23px;
+        margin-top:10px;
+    }
+         
+    .fotter-section .fotter-list ul li{
+        margin: 15px 0px;
+    }   
+    .fotter-section .fotter-list ul li .fotter-link{
+        font-size: 15px;
+    }
+    .fotter-section .fotter-list .foter-item{
+        margin-top:-28px;
+    }
+            
+    .fotter-section .footter-paragrp .fotter-para{
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .fotter-section .footter-paragrp{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+        
+    .fotter-section .fotter-user .un-list li{
+        list-style-type: none;
+        margin: 10px 17px;
+    
+    }
+    .fotter-section .fotter-user .un-list li .foter{
+        font-size: 16px;   
+    }
+    .fotter-section .fotter-icon .fotter-list-item{
+        margin-top: -20px;
+        margin-left:17px;
+    }
+        
+    /*fotter section end end---------*/
+
+    /*contacts section start now---------------*/
+    .contact-section .contacts-head{
+        font-size:30px;
+        font-weight: bold;
+    }
+    /*contacts section end -----------------*/
+
+
+}
+@media only screen and (min-width:980px) and (max-width:1150px){ 
+    /*navbar section start now*/
+    .ms-auto {
+        margin-left: auto !important;
+        margin-top: 20px;
+    } 
+    /*navbar section end now*/
+     
+    /*cap section start now Now------------*/
+    .cab-section .head-line{
+        font-size:30px;
+    }
+    .cab-section .heading{
+        font-size:22px;
+    }
+    .cab-section .paragraph{
+        font-size:16px;
+    }
+    .cab-section .read-btn-type{
+        margin:30px 0px;
+    }
+
+    /*cap section end END now---------------*/
+
+    /*card section Start now--------------*/
+    .main-blog .img-area img{
+        width: 220px !important;
+        height: 120px !important;
+    }
+    .main-blog .img-area {
+        margin-top: -42px;
+    }
+    /*card section End now--------------*/
+
+    /*cap section start Now---------------*/
+    .cap-section .google-store-img {
+        float: left;
+        width: 40%;
+        padding-left: 4px;
+    }
+    .cap-section .apple-store-img {
+        float: left;
+        width: 40%;
+        padding-right: 8px;
+    }  
+    
+    /*cap section End now-------------------*/
+
+    /*footter section start now now*/
+        
+    .fotter-section .fotter-heading{
+        font-size:25px; 
+      
+    }
+         
+    .fotter-section .fotter-list ul li .fotter-link{
+        font-size: 14px;
+    }
+    .fotter-section .fotter-list .foter-item{
+        margin-top:-28px;
+    }
+            
+    .fotter-section .footter-paragrp .fotter-para{
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .fotter-section .footter-paragrp{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+        
+    .fotter-section .fotter-user .un-list li{
+        list-style-type: none;
+        margin: 10px 17px;
+    
+    }
+    .fotter-section .fotter-user .un-list li .foter{
+        font-size: 16px;   
+    }
+    .fotter-section .fotter-icon .fotter-list-item{
+        margin-top: -20px;
+        margin-left:17px;
+    }
+        
+    .fotter-section .fotter-heading{
+        position: relative;
+    }
+    .fotter-section .fotter-heading::before{
+        position: absolute;
+        content:'';
+        width: 250px;
+        height: 4px;
+        top:40px;
+    }
+    .fotter-section .footter-paragrp {
+        margin-left: 3px;
+        font-size: 15px;
+      
+    }
+    .fotter-section .fotter-list ul li {
+        margin: 10px 0px;
+    }
+    .fotter-section .fotter-list .foter-item{
+        width:100%;
+        margin-left: 3px;
+        margin-top: 20px;
+    }
+    .fotter-section .un-list{
+        margin-left: -20px;
+    }
+    .fotter-section .fotter-list-item{
+        margin-left: -30px;
+    }
+    .fotter-section .user-add-icon{
+        margin-left: -18px;
+
+    }
+    /*fotter section end end---------*/
+
+}
+@media only screen and (min-width:1150px) and (max-width:1200px){
+
+    /*cap section start now-----------------*/
+    .cab-section .head-line {
+        font-size: 35px;
+        width: 100%;  
+    }
+    .cab-section .heading {
+        font-size: 25px;
+    }
+    .cab-section .paragraph {
+        font-size: 16px;
+        width: 95%;
+    }  
+    /*cap section end now--------------------*/
+
+    /*card section Start now--------------*/
+    .main-blog .img-area img{
+        width: 280px !important;
+        height: 140px !important;
+    }
+    .main-blog .img-area {
+        margin-top: -42px;
+    }
+    /*card section End now--------------*/
+
+    /*cap section start now----------------*/
+    .cap-section .google-store-img {
+        float: left;
+        width: 40%;
+        padding-left: 4px;
+    }
+    .cap-section .apple-store-img {
+        float: left;
+        width: 40%;
+        padding-right: 8px;
+    }  
+    
+    /*cap secion end now---------------------*/
+
+    /*footter section start now*/
+    .fotter-section .fotter-heading {
+        position: relative;
+    }
+    
+    .fotter-section .fotter-heading::before{
+        position: absolute;
+        content:'';
+        width: 250px;
+        height: 4px;
+        top:50px;
+    }
+    /*footter section End noe*/
+
+}
+@media only screen and (min-width:1200px) and (max-width:1250px){
+    
+    /*cap section start now----------------*/
+   
+    /*cap secion end now---------------------*/
+
+}
+
+
+

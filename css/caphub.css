@@ -1,0 +1,653 @@
+
+
+/*header scetion stat now*/
+header{
+   background: url('../img/header.jpg');
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 745px;
+   padding-top: 50px;
+
+}
+.navbar-nav .nav-item{
+    margin: 0px 10px;
+}
+.navbar-toggler-icon{
+    background-color: white !important;
+}
+.navbar-nav .nav-link.active {
+    color: #000;
+    background: #ffc61a;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 4px 15px;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 4px 22px;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #000;
+    background: #ffc61a;
+}
+.header-info h1{
+    font-family: "Lato", serif;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.header-info h3,h4{
+    font-family: "Lato", serif;
+    color: #ffc61a;
+}
+.header-info p{ 
+    color: #fff;
+    font-weight: bold;
+    font-family: "Lato", serif;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-size:1.25rem;
+
+}
+
+/*header section end ENd ----------*/
+
+/*cab scetion start now now.......,......................*/
+.service-section{
+    width: 100%;
+    padding: 143px 80px;
+    background:#ffc61a;
+    margin-top: -6px;
+}
+.service-section .heading{
+    font-size: 35px;
+    color:#101010;
+    font-family:"Lato", serif; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.service-section .head-line{
+    font-size: 50px;
+    color:#101010;
+    font-family:"Lato", serif; 
+    font-weight: bold;
+    width: 94%;
+    text-transform: uppercase;
+
+}
+.service-section .paragraph{
+    font-size: 18px;
+    color:#101010;
+    font-family:"Lato", serif; 
+    text-transform: capitalize;
+    width: 91%;
+
+}
+.service-section .read-btn{
+    text-decoration: none;
+    padding: 0px 30px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background:#000000;
+    font-size: 29.53px;
+    border-radius: 14px;
+    font-family: "Bebas Neue", serif; 
+    color: #ffffff;
+    position:relative;
+    animation: animate 500ms ease-in 2;
+    
+}
+@keyframes animate {
+    0%{
+        left:0px;
+        top: 0px;
+        bottom:0px;
+        right: 0px;
+        
+    }
+    50%{
+       left: 260px;
+       top:100px;
+       right: 0px;
+       bottom:0px;
+       
+    } 
+    75%{
+        left: 260px;
+        top:100px;
+        right: 0px;
+        bottom:0px;
+        
+    }
+    100%{
+        left: 260px;
+        top:0px;
+        right: 260px;
+        bottom:0px;
+        
+    }
+
+}
+.heder-cab {
+    width: 100%;
+    background-color:black;
+    padding: 26px 0px;
+}
+.heder-cab .book-cab{
+    margin-left:36px;
+    color: #fff;
+    font-size: 34.43px;
+    font-weight: bold;
+    font-family:"Lato", serif; 
+
+}
+.heder-cab .book-cab .cap{
+    font-size: 34.43px;
+    font-weight: bold;
+    font-family:"Lato", serif; 
+    color: #ffc61a;
+}
+.cab-section-area{
+    width: 100%;
+    background-color:#ffffff;
+    padding-top: 34px;
+    padding-bottom: 28px;
+    padding-left: 35px;
+    padding-right: 23px;
+  
+}
+
+.cab-section-area .form-control{
+    border: transparent;
+    border-bottom: 4px solid #e4e4e4;
+    border-radius: 0px;
+    padding:0px;
+    margin-bottom:41px;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+.cab-section-area input::placeholder{
+    color: #000000;
+    font-weight: bold;
+    font-family:"Lato", serif;
+    font-size: 1.25rem;
+    padding-bottom:30px;
+    text-transform: capitalize;
+}
+.cab-section-area .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.cab-section-area .submit-btn {
+    width:100%;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 6px;
+    background-color:#131313;
+    color:#ffffff;
+    font-size: 29.53px;
+    font-family:"Bebas Neue", serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.select-section{
+    width:100%;
+    height:40px;
+    border:none;
+    background-color: transparent;
+    border-bottom: 4px solid #e4e4e4;
+    font-size: 20px;
+    color:#000000;
+    font-weight: bold;
+    font-family:"Lato", serif;
+    padding:0px;
+    padding-bottom:10px;
+}
+.select-section option{
+    font-size: 20px;
+    color:#000000;
+    font-weight: bold;
+    font-family:"Lato", serif;
+}
+
+/*cab scetion start------==== now End ENd End.......,......................*/
+
+/* card section start now --------------------------*/
+.card-section{
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 75px;
+    background-color: #ffffff;
+
+}
+.card-section .card-head{
+    font-family:"Lato", serif;
+    font-size: 35px;
+    color:#ffc61a;
+    font-weight: bold;
+}
+
+.card-section .card-row-section{
+    margin-top: 90px !important;
+}
+.card-section .card-headline{
+    font-family:"Lato", serif;
+    font-size: 43.94px;
+    color:#000000;
+    font-weight: bold;
+}
+.card-section .card-blog{
+    width: 100%;
+    padding-top:0px;
+    padding: 0px 35px;
+    padding-bottom: 74px;
+    background:#f5f4f2;
+    margin-top: 49px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 70px;
+}
+.card-section .card-blog::before{
+    display: none;
+}
+.card-section .card-blog:hover::before{
+    content: '';
+    position: absolute;
+    bottom: -64px;
+    right: -110px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    transform: rotate(39deg);
+    display: block;
+}
+.card-section .card-blog:hover{
+    background:#ffc61a;
+}
+.main-blog{
+    position: relative;
+}
+.main-blog .img-area{
+    position: absolute;
+    z-index: 222;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -100px;
+}
+.main-blog .img-area img{
+    width: 350px !important;
+    height: 200px !important;
+    object-fit: cover;
+  }
+.card-section .card-body .card-he{
+    font-size: 30.42px;
+    font-family:"Lato", serif;
+    color:#000000;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 29px;
+}
+
+.card-section .card-body .card-pragraph{
+    font-size:18px;
+    color: #000000;
+    font-family:"Lato", serif;
+}
+.card-section .card-pragraph:hover .card-body{
+    color: #000000;
+
+}
+.card-section .card-blog .card-body .text-orange{
+    font-family:"Lato", serif;
+    font-size: 43.94px;
+    color:#ffc61a;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+.card-section .card-blog:hover .card-body .text-orange{
+    color:#000000 !important;
+}
+
+.card-section .card-blog .card-body .btn-style{
+    padding:13px 30px;
+    background:#ffc61a;
+    font-family:"Bebas Neue", serif;
+    font-size: 29.53px;
+    border-radius:10px;
+    color: #000000;
+  
+}
+.card-section .card-blog:hover .btn-style{   
+    background-color:#000000;
+    color:#ffffff;
+}    
+
+.card-section .card-icon-add{
+    position: relative;
+}
+.card-section .card-icon-add .card-dt{
+    content: '';
+    position:absolute;
+    top: 35px;
+    left: 101%;
+    color:#ffc61a;
+    display: none;   
+
+}
+.card-section .card-blog:hover .card-dt{
+    overflow: visible;
+    display: block;
+}
+
+/*card section END Now------------------------------*/
+
+
+/*content area start now--------------------------------*/
+.content-section{
+    width: 100%;
+    padding: 50px 0px;
+    background: url(../img/seris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.content-section .content-head{
+    font-size: 44px;
+    color:#ffffff;
+    font-family:"Lato", serif;
+}
+.content-section .content-box{
+    padding: 20px 30px;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.content-section .content-box .img-de{
+    margin: 0px;
+    padding-top: 3px;
+    line-height: 1;
+    float: left;
+    width:22%;
+}
+.content-section .paragraph{
+    float: left;
+    width:55%;
+    padding-top:1px;
+
+}
+.content-section .content-heading{
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1;
+    color:#ffc61a;
+    font-family:"Lato", serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.content-section .paragraph .content-p{
+    color:white;
+    font-size: 16px;
+    font-family:"Lato", serif;
+    padding-top: 23px;
+}
+.btn {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn .read-more-btn{
+    padding:15px 30px;
+    background-color:#ffc61a;
+    font-size: 29.53px;
+    color: #000000;
+    font-family:"Lato", serif;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+/*content area END END END END--------------------------------*/
+
+/*cap section start now nw--------------------------------------*/
+.cap-section{
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 0px;
+    background-color:#ffffff;
+    
+}
+.cap-section .cap-head{
+    font-size: 35px;
+    color:#ffc61a;
+    font-family:"Lato", serif;
+    font-weight: bold;
+} 
+.cap-section .cap-heading{
+    font-size: 43.94px;
+    color:#000000;
+    font-family:"Lato", serif;
+    font-weight: bold;
+}
+.cap-section .capt-head{
+    font-size: 25.48px;
+    color:#000000;
+    font-family:"Lato", serif;
+    font-weight: bold;
+    width: 80%;
+}
+.cap-section .cap-paragraph-area .cap-paragraph{
+    font-size: 18px;
+    color:#888888;
+    font-family:"Lato", serif;
+    width: 55%;
+}
+.cap-section .cap-img-btn{
+    width:100%;
+    height:auto;
+    
+}
+
+.cap-section .google-store-img{
+    float: left;
+    width:40%;
+}
+.cap-section .apple-store-img {
+    float: left;
+    width:40%;
+}
+.cap-section .cap-hand-moblie{
+    width:90%;
+    padding-left:21%;
+}
+.cap-section .cap-hand-moblie{
+    padding-top: 18px;
+}
+
+/*cap section ENd  end now--------------------------------------*/
+
+/*testimonial area start now----------------------------*/
+
+.testimonial-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../img/testimonial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial-section .test-head{
+    font-size: 35px;
+    color:#ffc61a;
+    font-family:"Lato", serif;
+
+}
+.testimonial-section .testi-heading{
+    font-size: 43.94px;
+    color:#ffffff;
+    font-family:"Lato", serif;
+    margin-bottom: 30px;
+}
+.testimonial-section .service-content{
+    padding: 42px 50px;
+    background-color:#040707;
+    border-radius: 35px;
+}
+.testimonial-section .service-paragraph{
+    font-size:18px;
+    color:#ffffff;
+    font-family:"Lato", serif;
+    width: 90%;
+     
+}
+.testimonial-section .service-content .test-heading {
+    font-size:25px;
+    color:#ffc61a;
+    font-family:"Lato", serif;
+    text-transform: uppercase;
+
+}
+.testimonial-section .service-content .tesing-head{
+    font-size:18px;
+    color:#ffffff;
+    font-family:"Lato", serif;
+    text-transform: uppercase;
+}
+/*testimonial area END now----------------------------*/
+
+/*contacts section start now ---------------------------*/
+.contact-section{
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color:#ffc61a;
+
+}
+.contact-section .contacts-head{
+    font-size:2.188rem;
+    color:#000000;
+    font-family:"Lato", serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact-section .contacts{
+    font-size:4.791rem;
+    color:#000000;
+    font-family:"Lato", serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}          
+/*contacts section END END---------------------------*/
+
+/*fotter section start now---------------------------*/
+.fotter-section{
+    padding-top: 68px;
+    padding-bottom: 15px;
+    background-color: #000000;
+    
+}
+.fotter-section .fotter-heading{
+    color:#ffffff;
+    font-size:25px;
+    font-weight: bold;
+    font-family:"Lato", serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+.fotter-section .fotter-heading::before{
+    position: absolute;
+    content:'';
+    width: 345px;
+    height: 9px;
+    top:50px;
+    left:2px;
+    background: #ffc61a;
+    
+}
+.fotter-section .footter-paragrp .fotter-para{
+    font-size: 18px;
+    color:#ffffff;
+    font-family:"Lato", serif;
+    cursor: pointer;
+}
+.fotter-section .fotter-icon .fotter-list-item li{
+    list-style-type: none;
+    float: left;
+    margin: 20px 15px;
+    padding: 0px;
+}
+.fotter-section .fotter-icon .fotter-list-item li .facabook-icon{
+    color:#ffc61a;
+    width: 60px;
+    height: 30px; 
+}
+.fotter-section .fotter-icon{
+    margin-left: -40px;
+    padding: 0px;
+}
+.fotter-section .fotter-user .un-list li{
+    list-style-type: none;
+    margin: 20px 0px;
+
+}
+.fotter-section .fotter-user .un-list li .foter{
+    color: #ffc61a;
+    font-size: 20px;
+    font-family:"Lato", serif;
+}
+.fotter-section .fotter-user .un-list li .foter .user-icon{
+    margin-left: 25px;
+    color: #ffffff;
+}
+.fotter-section .fotter-user .un-list li .foter .user-add-icon{
+    margin-left: 75px;
+    color: #ffffff;
+}
+.fotter-section .fotter-user {
+    margin-left: -25px;
+}
+.fotter-section .fotter-list {
+    margin-left: -32px;
+    margin-top: 42px;
+    width: 100%;
+}
+.fotter-list .foter-item .last-fotter-list {
+    margin: 10px 0px;
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    padding-left: 30px;
+}
+.fotter-list .foter-item .last-fotter-list .list-link{
+    text-decoration: none;
+    color:#ffffff;
+    font-size:17px;
+    font-family:"Lato", serif;
+}
+.fotter-list .list-item-fotter{
+    width: 85%;
+    float: left;
+}
+.fotter-list .fotter-icon{
+    float:left;
+    width:15%;
+    padding-left:3%;
+    padding-right:10px;
+    font-size:17px;
+    
+}
+
+.fotter-copy-right-section .copy-right{
+    color:#ffffff;
+    font-size: 14px;
+    font-family:"Lato", serif;  
+}
+/*fotter section END now---------------------------*/
